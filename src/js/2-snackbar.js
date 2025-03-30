@@ -41,7 +41,7 @@ function handleSubmit(event) {
             backgroundColor: "#ef4040",
             titleColor: "#fff",
             messageColor: "#fff",
-            // iconUrl: "/img/erroro.webp",
+            iconUrl: "/src/img/octagon.svg",
             
         });
     });
