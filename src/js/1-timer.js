@@ -40,7 +40,7 @@ class Timer {
             titleColor: "#fff",
             messageColor: "#fff",
             class: "icon-svg-success",
-            iconUrl: "/img/octagon.svg",
+            iconUrl: "/error.webp",
           });
           startBtn.disabled = true;
         } else {

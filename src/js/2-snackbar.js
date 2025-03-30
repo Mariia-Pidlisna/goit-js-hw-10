@@ -26,7 +26,7 @@ function handleSubmit(event) {
             message: `Fulfilled promise in ${delay}ms`,
             position: "topRight",
             class: "icon-svg-success",
-            iconUrl: "/img/circle.svg",
+            iconUrl: "/success.webp",
             backgroundColor: "#59a10d",
             titleColor: "#fff",
             messageColor: "#fff",
@@ -41,7 +41,7 @@ function handleSubmit(event) {
             backgroundColor: "#ef4040",
             titleColor: "#fff",
             messageColor: "#fff",
-            iconUrl: "/img/octagon.svg",
+            iconUrl: "/error.webp",
             
         });
     });
