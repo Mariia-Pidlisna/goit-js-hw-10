@@ -26,7 +26,7 @@ function handleSubmit(event) {
             message: `Fulfilled promise in ${delay}ms`,
             position: "topRight",
             class: "icon-svg-success",
-            // iconUrl: "/img/successv.webp", 
+            iconUrl: "/img/successv.webp", 
             backgroundColor: "#59a10d",
             titleColor: "#fff",
             messageColor: "#fff",
