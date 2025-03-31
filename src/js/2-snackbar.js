@@ -6,10 +6,10 @@ const form = document.querySelector(".form");
 form.addEventListener("submit", handleSubmit);
 
 function handleSubmit(event) {
-    event.preventDefault(); // Щоб форма не перезавантажувала сторінку
+    event.preventDefault(); 
 
-    const delay = Number(event.target.elements.delay.value); // Отримуємо затримку
-    const shouldResolve = event.target.elements.state.value === "fulfilled"; // Отримуємо стан з radio-кнопок
+    const delay = Number(event.target.elements.delay.value); 
+    const shouldResolve = event.target.elements.state.value === "fulfilled"; 
 
     new Promise((resolve, reject) => {
         setTimeout(() => {
